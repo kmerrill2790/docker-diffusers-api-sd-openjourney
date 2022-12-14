@@ -128,7 +128,7 @@ ARG MODEL_URL=""
 ENV MODEL_URL=${MODEL_URL}
 # If set, it will be downloaded and converted to diffusers format, and
 # saved in a directory with same MODEL_ID name to be loaded by diffusers.
-ARG CHECKPOINT_URL=""
+ARG CHECKPOINT_URL="https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.ckpt"
 ENV CHECKPOINT_URL=${CHECKPOINT_URL}
 ARG CHECKPOINT_CONFIG_URL=""
 ENV CHECKPOINT_CONFIG_URL=${CHECKPOINT_CONFIG_URL}
